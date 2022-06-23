@@ -1,0 +1,31 @@
+main{
+    margin-top: 110px;
+}
+section img{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+section{
+    margin: 30px;
+    color: bisque;
+    border-bottom: 1px bisque solid;
+}
+section div{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: xx-large;
+}
+section div i:hover{
+    color: burlywood;
+}
+section p a span{
+    display: none;
+}
+section p a:focus span{
+    display: block;
+    color: bisque;
+    text-decoration: none;
+}
