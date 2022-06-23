@@ -21,10 +21,10 @@ section div{
 section div i:hover{
     color: burlywood;
 }
-section p a span{
+section p .mehr span{
     display: none;
 }
-section p a:focus span{
+section p .mehr:active span{
     display: block;
     color: bisque;
     text-decoration: none;
